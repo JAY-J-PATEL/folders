@@ -1,0 +1,125 @@
+body {
+    background-color: black;
+    color: white;
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.main-content {
+    width: 100%;
+    height: 25rem;
+    background: url(../Assets/img.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5rem;
+}
+
+.container {
+    height: 30rem;
+    text-align: center;
+    padding-top: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.container-content h1 {
+    color: white;
+    font-size: 5rem;
+    position: relative;
+    transition: 0.5s;
+}
+
+.container-content h1:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    background: linear-gradient(
+            to right, #f3c621, #ff6b08,
+             #ebe94e, #ee8e44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    /* text-shadow: 2px 2px #df8212; */
+    text-shadow: 0 0 1em rgb(222, 222, 21), 0 0 0.2em rgb(255, 174, 0);
+}
+
+.container-content p {
+    font-size: 1.5rem;
+    line-height: 40px;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------- */
+
+.occur {
+    margin: 4rem 2rem 4rem 2rem;
+}
+
+.occur-content {
+    display: flex;
+}
+
+.occur-heading {
+    margin: 0;
+    font-size: 4rem;
+    /* margin-top: 2.8rem; */
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.occur-desc {
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+    line-height: 2.3rem;
+    font-family: sans-serif;
+    padding-right: 1rem;
+}
+
+.occur-content video {
+    width: 500px;
+    border-radius: 15px;
+}
+
+/* ----------------why only some people on earch see solar eclips on a given time--------- */
+
+#img {
+    opacity: 0.5;
+    width: 100%;
+    height: 600px;
+}
+
+
+.people-see {
+    display: flex;
+    margin-top: 4rem;
+}
+
+.people-see img{
+    margin-left: 5rem;
+    width: 170rem;
+}
+
+.people-see p {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.6rem;
+    width: 90rem;
+    margin-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+/* ----------------------eye-safety-------------------------------- */
+
+.eye-safety IMG {
+    background-image: url(im.jpz`g);
+    width: 100%;
+    height: 400px;
+    /* background-color: pink; */
+    opacity: 0.2;
+}
